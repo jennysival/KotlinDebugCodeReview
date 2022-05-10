@@ -1,5 +1,5 @@
-import src.estoque.Estoque
-import src.menu.Menu
+import src.compras.Estoque
+import src.compras.Menu
 
 fun main() {
     println("Boas vindas ao Seu Estoque em dia!")
