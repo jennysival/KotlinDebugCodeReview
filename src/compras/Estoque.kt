@@ -12,7 +12,7 @@ class Estoque {
             verificarItemRepetido(novoItem.codigo, novoItem)
     }
 
-    fun adicionarItemNaLista(item: Item){
+    private fun adicionarItemNaLista(item: Item){
         listaItem.add(item)
         println("----------------------------------------------")
         println("          Item registrado com sucesso         ")
