@@ -1,0 +1,28 @@
+Até agora vimos programação orientada a objetos. Vamos utilizar alguns
+destes conceitos para desenvolver o um sistema de administração de
+estoque de uma livraria. Para isto, temos os seguintes requisitos:
+
+● Um livro tem código, título, autor, ano de lançamento, quantidade
+em estoque e preço.
+● Ao iniciar o sistema, o usuário deve ter as seguintes opções:
+
+a. Cadastrar Livro
+Deve incluir um novo livro com todas as informações necessárias.
+Podemos utilizar a estrutura de lista para gravar os livros. Também vendemos
+coleções de livros, que são compostas por uma lista de livros, tem código, preço
+e descrição. Incluir a opção no menu inicial.
+
+b. Cadastrar Coleção
+Deve incluir uma nova coleção com todas as informações
+necessárias, incluindo a lista de livros. dica: Já inicialize o estoque da
+livraria com alguns livros cadastrados.
+
+c. Consultar Livro por código (pode ser Livro ou Coleção)
+Exibe as informações sobre o livro com o código digitado. Se não
+existir nenhum livro com esse código, exibir a mensagem “Livro não encontrado”
+
+d. Efetuar venda (por código)
+Se o usuário selecionar esta opção, ele deve informar o código do
+livro ou da coleção que será vendido. O sistema deve diminuir a quantidade de
+livros ou coleção em estoque. Se não houver mais livros ou coleções em
+estoque, exibir a mensagem “Estoque esgotado”.
