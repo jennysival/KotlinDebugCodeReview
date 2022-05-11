@@ -99,17 +99,17 @@ open class Livro {
         inserirAno()
     }
 
-    fun inserirTitulo(){
+    private fun inserirTitulo(){
         print("Digite o título: ")
         titulo = readln()
     }
 
-    fun inserirAutor(){
+    private fun inserirAutor(){
         print("Digite a autoria: ")
         autor = readln()
     }
 
-    fun inserirAno(){
+    private fun inserirAno(){
         try {
             print("Digite o ano de lançamento: ")
             ano = readln().toInt()

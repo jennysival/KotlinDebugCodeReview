@@ -1,7 +1,7 @@
 package src.sistemaLivraria
 
 class EstoqueLivraria {
-    val listaDeLivrosAndColecoes = mutableMapOf<Int, Livro>()
+    private val listaDeLivrosAndColecoes = mutableMapOf<Int, Livro>()
 
     fun livrosEmEstoque(){
         val livro1 = Livro()
@@ -126,7 +126,7 @@ class EstoqueLivraria {
         }
     }
 
-    fun exibirEstoque(codigo: Int){
+    private fun exibirEstoque(codigo: Int){
         listaDeLivrosAndColecoes[codigo]?.exibir()
         }
     }
