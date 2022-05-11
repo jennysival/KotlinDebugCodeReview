@@ -1,4 +1,4 @@
-package src.compras
+package src.exercicio1.compras
 
 class Estoque {
     private val listaItem: ArrayList<Item> = ArrayList()

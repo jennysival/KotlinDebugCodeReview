@@ -1,4 +1,4 @@
-package src.compras
+package src.exercicio1.compras
 
 class Item {
 

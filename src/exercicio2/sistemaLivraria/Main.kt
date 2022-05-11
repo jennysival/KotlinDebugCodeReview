@@ -1,4 +1,4 @@
-package src.sistemaLivraria
+package src.exercicio2.sistemaLivraria
 
 fun main() {
 
